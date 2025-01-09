@@ -62,6 +62,26 @@ let outputStr = "Hallo," + GAP + firstName + GAP + secondName + "!"
 
 // 2. Funktionalität: string output
 console.log(outputStr);
+
 }
 
+/***** Funktionen 03b *****/
 
+
+// 2. Funktionalität: string output
+// output("hi");
+// output(2);
+// output(true);
+function output(outputData) {
+    console.log(outputData);
+}
+
+// 1. Funktionalität: string composing
+
+output(getString("Max","Mütze"));
+
+function getString(firstName, secondName) {
+    const GAP = " ";
+    let outputStr = "Hallo,"+ GAP + firstName + GAP + secondName + "!"
+    
+}
